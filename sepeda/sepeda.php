@@ -1,7 +1,7 @@
 <?php
 include '../koneksi.php';
 
-// Hapus sepeda jika ada parameter `hapus`
+
 if (isset($_GET['hapus'])) {
     $id = $_GET['id'];
     $conn->query("DELETE FROM bicycles WHERE id_sepeda = $id");
