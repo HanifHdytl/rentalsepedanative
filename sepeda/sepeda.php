@@ -28,7 +28,7 @@ $result = $conn->query("SELECT * FROM bicycles");
             background-color: #ffffff;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0, 4, 255, 0.1);
         }
         .table thead {
             background-color: #007bff;
