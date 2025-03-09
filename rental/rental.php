@@ -122,8 +122,8 @@ $result = $conn->query("SELECT rentals.*, customers.nama AS pelanggan, bicycles.
                             <i class="fas fa-edit"></i> Edit
                         </a>
                         <a href="rental.php?id=<?= $row['id_rental']; ?>&hapus=1" 
-                           class="btn btn-danger btn-sm btn-action"
-                           onclick="return confirm('Yakin ingin menghapus?');">
+                            class="btn btn-danger btn-sm btn-action"
+                            onclick="return confirm('Yakin ingin menghapus?');">
                             <i class="fas fa-trash-alt"></i> Hapus
                         </a>
                     </td>
