@@ -115,7 +115,7 @@ $result = $conn->query("SELECT rentals.*, customers.nama AS pelanggan, bicycles.
                     <td><?= $row['sepeda']; ?></td>
                     <td><?= $row['tanggal_sewa']; ?></td>
                     <td><?= $row['tanggal_kembali'] ?? '-'; ?></td>
-                    <td>Rp <?= number_format($row['total_biaya'], 0, ',', '.'); ?></td>
+                    <td>$ <?= number_format($row['total_biaya'], 0, ',', '.'); ?></td>
                     <td><?= $row['status']; ?></td>
                     <td class="text-center">
                         <a href="edit.php?id=<?= $row['id_rental']; ?>" class="btn btn-warning btn-sm btn-action">

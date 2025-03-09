@@ -104,7 +104,7 @@ $result = $conn->query("SELECT * FROM bicycles");
                     <td><?= $row['merk']; ?></td>
                     <td><?= $row['tipe']; ?></td>
                     <td><?= $row['warna']; ?></td>
-                    <td>Rp<?= number_format($row['harga_sewa'], 0, ',', '.'); ?></td>
+                    <td>$ <?= number_format($row['harga_sewa'], 0, ',', '.'); ?></td>
                     <td><?= $row['status']; ?></td>
                     <td class="text-center">
                         <a href="edit.php?id=<?= $row['id_sepeda']; ?>" class="btn btn-warning btn-sm btn-action">
